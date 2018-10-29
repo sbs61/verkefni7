@@ -49,7 +49,7 @@ function play() {
  
  var sec2 = new Date().getTime(); //Tími í lokin
 
- var sec = (sec2 - sec1)/1000; //mismunur loka og upphafstíma
+ var sec = ((sec2 - sec1)/1000).toFixed(2); //mismunur loka og upphafstíma
 
  var medal = (rett/sec).toFixed(2); //meðalfjöldi réttra spurninga á sekúndu
 
